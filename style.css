@@ -46,13 +46,13 @@
     .first.block .colored {
         width: calc(100% / 4);
         display: inline-block;
-        float:left;
+        float: left;
     }
 
     .second.block .colored {
         width: calc(100% / 2);
         display: inline-block;
-        float:left;
+        float: left;
     }
 
     .third.block .colored:nth-child(-n+2) {
@@ -79,14 +79,14 @@
     }
 
     .fifth.block .colored {
-        width: calc(100% /5); 
+        width: calc(100% / 5); 
         display: inline-block;
         float: left;
     }
 
 }
 
-@media (min-width: 1200px) and (max-width:1799px) {
+@media (min-width: 1200px) and (max-width: 1799px) {
     .first .colored:nth-child(-n+4) {
         width: 50%;
         float: left;
@@ -124,7 +124,7 @@
 }
 
 
-@media (min-width: 960px) and (max-width:1199px) {
+@media (min-width: 960px) and (max-width: 1199px) {
     .first.block .colored {
         width: 50%;
         float: left;
@@ -155,7 +155,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width:959px) {
+@media (min-width: 768px) and (max-width: 959px) {
     .first {
         width: calc(100% / 2);
     }
